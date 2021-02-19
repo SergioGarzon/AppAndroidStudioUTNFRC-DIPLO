@@ -7,10 +7,13 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Mi Primera App!"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:text="Applicacion en Proceso"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.42"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -22,7 +25,7 @@
         android:layout_height="wrap_content"
         android:foreground="@android:drawable/ic_delete"
         tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="405dp"
+        tools:layout_editor_absoluteY="149dp"
         tools:srcCompat="@tools:sample/avatars" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
